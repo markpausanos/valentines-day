@@ -1,0 +1,50 @@
+body {
+
+    animation: fadeIn 7s;
+    height: 97.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: url("resources/liyue.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#title{
+    position: absolute;
+    top: 2%;
+    font-family: 'Quintessential', cursive;
+    color: white;
+    font-size: 50px;
+}
+.container{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Quintessential', cursive;
+    margin-top: 40%;
+    font-size: 15px;
+    text-shadow:  0 0, 0 0 5px #000000;
+}
+.container:hover{
+    cursor: pointer;
+}
+.center{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.glow{
+    animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+        filter: drop-shadow(6px 6px 6px rgb(20, 209, 13))
+    }
+    to {
+        filter: drop-shadow(2px 2px 2px rgb(148, 173, 101));
+    }
+}

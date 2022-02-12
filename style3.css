@@ -1,0 +1,40 @@
+body {
+
+    animation: fadeIn 7s;
+    height: 97.3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-image: url("resources/letter_img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+#title{
+    position: absolute;
+    top: 2%;
+    font-family: 'Quintessential', cursive;
+    color: rgb(255, 157, 157);
+    font-size: 50px;
+}
+#blank{
+    
+    font-family: 'Quintessential', cursive;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    position: absolute;
+    width: 600px; 
+    color: white;
+    display: block;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    letter-spacing: 0.101px;
+    text-shadow:  0 0, 0 0 5px #000000;
+    line-height: 1.6;
+}
