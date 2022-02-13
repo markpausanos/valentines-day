@@ -14,7 +14,7 @@ function playAudio(x){
         playMaintheme();
     }
 }
-
+playAudio();
 function playTransition(){
     document.getElementById("open1").className = 'fadeOpen';
     document.getElementById("open2").className = 'fadeOpen';
